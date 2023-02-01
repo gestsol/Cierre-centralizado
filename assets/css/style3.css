@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.gama{
+    width: 103px;
+    height: 29px;
+}
+
+/* .volver{
+    width: 31px;
+    height: 30px;
+}
+
+.datos{
+    font-weight: bold;
+} */
