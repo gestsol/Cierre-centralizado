@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("/assets/img/Fondo-de-Imagen.png");
+    background-size: 100%;
+    background-color: #000 !important;
+    color: #fff !important;
+    background-repeat: no-repeat;}
+
+.gama{
+    width: 103px;
+    height: 29px;
+}
+
+.abierto{
+    margin-top: 10%;
+}
+
+.cerrado{
+margin-top: 52%;
+}
+
+
+
+
+
+/* INICIO DE LOS ESTILOS DEL INDEX5.HTML */
+
+.coche-cerrado{
+    color: #FF0000;
+    margin-top: 20%;
+}
+
+.cerrar-coche{
+    margin-top: 36%;
+    opacity: 25%;
+}
+
+/* FIN DE LOS ESTILOS DEL INDEX5.HTML */
+
+
+/* INICIO DE LOS ESTILOS DEL INDEX6.HTML */
+
+.coche-abierto{
+    color: #00FB32;
+    margin-top: 20%;
+}
+
+.margen-cerrado{
+    margin-top: 37.5%;
+
+}
+
+.abrir-coche{
+    opacity: 25%;
+}
+
+/* FIN DE LOS ESTILOS DEL INDEX6.HTML */
+
+
+/* INCIO MODAL */
+
+.btn{
+    position:relative;
+    color:#fff;
+    text-shadow:none;
+    border-radius:0px;
+    background: transparent;
+    text-decoration: none;
+ }
+ 
+ /* .btn:hover{
+    background: #f5b14b;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.22);
+    color:#fff;
+ } */
+ 
+ #modalContent{
+    /* position:absolute;
+    top:30%;
+    left:35%; */
+    z-index:9999;
+    float:left;
+    /* margin:-2% 0px 0px -150px; */
+    width:325px;
+    height: 221px;
+    color:#888888;
+    /* line-height:22px; */
+    padding-top: 23%;
+    border-radius:7px;
+    background:#676767;
+border: none;
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+ }
+ 
+ #modal{
+    position:fixed;
+    top: 26%;
+    left: 18%;
+    z-index:9999;
+    float:left;
+    width:325px;
+    height:221px;
+    background:rgba(0,0,0,0.2);
+    display:none;
+    opacity:0;
+ }
+ 
+ #modal > a{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:9999;
+    float:left;
+    width:100%;
+    height:100%;
+ }
+ 
+ :target{
+    display:block!important;
+    opacity:1!important;
+ }
+ 
+ #modalContent > a{
+    position:absolute;
+    top:-4px;
+    right:10px;
+    color: #fff;
+    border-radius:2px;
+    background:transparent;
+    padding:10px;
+    font-size: 30px;
+    text-decoration: none;
+ }
+
+ button{
+    margin-top: 10%;
+    margin-left: 32%;
+    width: 116px;
+    height: 40px;
+    border-radius: 7px !important;
+    background-color: #FF5F00;
+    color: #fff !important;
+    /* box-shadow: #fff; */
+    border: 1px solid #000;
+    /* margin-left: 42% !important; */
+}
+
+.boton-abierto{
+    margin: 10% 0 0 32%;
+}
+/* FINAL DE MODAL */
