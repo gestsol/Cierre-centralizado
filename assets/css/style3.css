@@ -5,20 +5,119 @@
 }
 
 body{
+    background-image: url("/assets/img/Fondo-de-Imagen.png");
+    background-size: 100%;
     background-color: #000 !important;
     color: #fff !important;
-}
+    background-repeat: no-repeat;}
 
 .gama{
     width: 103px;
     height: 29px;
 }
 
-/* .volver{
-    width: 31px;
-    height: 30px;
+.abierto{
+    margin-top: 10%;
 }
 
-.datos{
-    font-weight: bold;
+.cerrado{
+margin-top: 52%;
+}
+
+
+
+
+
+/* INICIO DE LOS ESTILOS DEL INDEX5.HTML */
+
+.coche-cerrado{
+    color: #FF0000;
+    margin-top: 20%;
+}
+
+.cerrar-coche{
+    margin-top: 20%;
+    opacity: 25%;
+}
+
+/* FIN DE LOS ESTILOS DEL INDEX5.HTML */
+
+
+/* INICIO DE LOS ESTILOS DEL INDEX6.HTML */
+
+.coche-abierto{
+    color: #00FB32;
+    margin-top: 20%;
+}
+
+.margen-cerrado{
+    margin-top: 20%;
+
+}
+
+.abrir-coche{
+    opacity: 25%;
+}
+
+/* FIN DE LOS ESTILOS DEL INDEX6.HTML */
+
+
+/* INCIO MODAL */
+
+/* .modal{
+    width: 100%;
+    height: 100vh;
+    background: white;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    animation: modal 0.1s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contenido{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background: white;
+    border-radius: 10px;
+}
+
+#cerrar{
+    display: none;
+}
+#cerrar + label{
+    position: absolute;
+    color: #000;
+    font-size: 25px;
+    z-index: 50;
+    background: white;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    cursor:pointer;
+
+    animation: modal 0.1s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+    display: none;
+}
+
+@keyframes modal{
+    100%{
+    visibility: visible;
+    opacity: 1;
+    }
 } */
+
+/* FINAL DE MODAL */

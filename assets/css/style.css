@@ -34,7 +34,8 @@ span{
 }
 
 h6{
-    font-weight: lighter !important;
+    font-weight:500 !important;
+    font-style: italic;
 }
 
 input{
@@ -43,4 +44,8 @@ background: none;
 outline: 0;
 color: #fff;
 border-bottom: 1px solid #fff;
+}
+
+.wit{
+    margin-top: 25.6%;
 }
