@@ -41,7 +41,7 @@ padding-bottom: 5px;
 
 ::placeholder{
     font-style: italic;
-    color: #838383;
+    color: #5c5c5c;
 }
 
 .gama{
@@ -56,4 +56,8 @@ padding-bottom: 5px;
 
 .datos{
     font-weight: bold;
+}
+
+span{
+font-size: 1.3rem;
 }
