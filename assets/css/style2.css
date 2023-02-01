@@ -26,7 +26,7 @@ button{
     color: #fff !important;
     /* box-shadow: #fff; */
     border: none !important;
-    margin-top: 123px !important;
+    margin-top: 80px !important;
 }
 
 input{
@@ -40,7 +40,8 @@ padding-bottom: 5px;
 }
 
 ::placeholder{
-    color: #fff;
+    font-style: italic;
+    color: #838383;
 }
 
 .gama{
