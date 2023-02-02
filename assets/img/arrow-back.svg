@@ -1,9 +1,0 @@
-<svg id="arrow_back" data-name="arrow back" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-  <g id="Grupo_1" data-name="Grupo 1" transform="translate(48) rotate(90)" opacity="0">
-    <path id="Trazado_1" data-name="Trazado 1" d="M0,0H48V48H0Z" fill="#fff"/>
-  </g>
-  <g id="Componente_1_1" data-name="Componente 1 – 1" transform="translate(8 9.996)">
-    <path id="Trazado_2" data-name="Trazado 2" d="M38,22H14.28l7.26-8.72a2,2,0,0,0-3.08-2.56l-10,12a2.381,2.381,0,0,0-.18.3.253.253,0,0,1-.14.26A1.963,1.963,0,0,0,8,24H8a1.963,1.963,0,0,0,.14.72.253.253,0,0,0,.14.26,2.381,2.381,0,0,0,.18.3l10,12A2.008,2.008,0,0,0,22,36.18a2.035,2.035,0,0,0-.46-1.46L14.28,26H38a2,2,0,0,0,0-4Z" transform="translate(-8 -9.996)" fill="#231f20"/>
-  </g>
-  <path id="Trazado_3" data-name="Trazado 3" d="M0,0H48V48H0Z" fill="none"/>
-</svg>
