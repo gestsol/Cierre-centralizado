@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("/assets/img/fondo-de-imagen.png");
+    background-image: url("/assets/img/Fondo-de-Imagen.png");
     background-size: 100%;
     background-color: #000 !important;
     color: #fff !important;
@@ -101,25 +101,26 @@ margin-top: 52%;
     z-index:9999;
     float:left;
     /* margin:-2% 0px 0px -150px; */
-    width:325px;
-    height: 221px;
+    width:295px;
+    height: 200px;
     color:#888888;
     /* line-height:22px; */
-    padding-top: 23%;
+    padding-top: 18%;
     border-radius:7px;
     background:#676767;
 border: none;
     box-shadow:5px 5px 10px 0px rgba(0,0,0,0.22);
+    opacity: 80%;
  }
  
  #modal{
-    position:fixed;
-    top: 26%;
-    left: 18%;
+    position:absolute;
+    top: 25%;
+    left: 5%;
     z-index:9999;
     float:left;
-    width:325px;
-    height:221px;
+    width:295px;
+    height:200px;
     background:rgba(0,0,0,0.2);
     display:none;
     opacity:0;
