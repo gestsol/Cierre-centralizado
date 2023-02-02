@@ -44,13 +44,12 @@ margin-top: 52%;
 /* INICIO DE LOS ESTILOS DEL INDEX5.HTML */
 
 .coche-cerrado{
-    color: #FF0000;
-    margin-top: 44.5%;
+    color: #00FB32;
     letter-spacing: 3px;
 }
 
 .cerrar-coche{
-    margin-top: 4%;
+    margin-top: 59%;
     opacity: 25%;
 }
 
@@ -60,13 +59,12 @@ margin-top: 52%;
 /* INICIO DE LOS ESTILOS DEL INDEX6.HTML */
 
 .coche-abierto{
-    color: #00FB32;
-    margin-top: 44.5%;
+    color: #FF0000;
     letter-spacing: 3px;
 }
 
 .margen-cerrado{
-    margin-top: 7%;
+    margin-top: 60%;
 
 }
 
