@@ -24,7 +24,20 @@ body{
 margin-top: 52%;
 }
 
+.borde-imagen{
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    opacity: 70%;
+}
 
+.borde-imagen-x{
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    opacity: 70%;
+}
 
 
 
@@ -32,11 +45,12 @@ margin-top: 52%;
 
 .coche-cerrado{
     color: #FF0000;
-    margin-top: 20%;
+    margin-top: 44.5%;
+    letter-spacing: 3px;
 }
 
 .cerrar-coche{
-    margin-top: 36%;
+    margin-top: 4%;
     opacity: 25%;
 }
 
@@ -47,11 +61,12 @@ margin-top: 52%;
 
 .coche-abierto{
     color: #00FB32;
-    margin-top: 20%;
+    margin-top: 44.5%;
+    letter-spacing: 3px;
 }
 
 .margen-cerrado{
-    margin-top: 37.5%;
+    margin-top: 7%;
 
 }
 
