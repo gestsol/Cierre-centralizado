@@ -1,8 +1,11 @@
 <?php
 $user='Desarrollo@wit.la';
+#$user='mailto:gamaleasing@wit.la';
 $pasw='Desarrollo2023.';
-$id_tracker=10186820;
-//$id_tracker=10185507;
+#$pasw='PilotoGama'
+$id_tracker=10186820; // camioneta Wit
+#$id_tracker=10185507;// base configuracion
+#$id_tracker=10186896; // piloto gama
 
 $curl = curl_init();
 
