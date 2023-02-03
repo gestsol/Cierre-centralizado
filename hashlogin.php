@@ -1,11 +1,11 @@
 <?php
-$user='Desarrollo@wit.la';
-#$user='mailto:gamaleasing@wit.la';
-$pasw='Desarrollo2023.';
-#$pasw='PilotoGama'
-$id_tracker=10186820; // camioneta Wit
+#user='Desarrollo@wit.la';
+$user='gamaleasing@wit.la';
+#$pasw='Desarrollo2023.';
+$pasw='PilotoGama';
+#$id_tracker=10186820; // camioneta Wit
 #$id_tracker=10185507;// base configuracion
-#$id_tracker=10186896; // piloto gama
+$id_tracker=10186896; // piloto gama
 
 $curl = curl_init();
 
@@ -31,9 +31,15 @@ curl_setopt_array($curl, array(
   ),
 ));
 
+
+
+
+
+
 $response = curl_exec($curl);
 
 $json=json_decode($response);
+
 $cap= $json->hash;
 
 //echo $cap;
