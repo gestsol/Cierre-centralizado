@@ -19,7 +19,7 @@ include "./output-set.php";
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous">
         <title>AndesMAr</title>
-        <link rel="icon" type="image/x-icon" href="./favicon.png">
+        <!-- <link rel="icon" type="image/x-icon" href="./favicon.png"> -->
     </head>
     <body>
         <header>

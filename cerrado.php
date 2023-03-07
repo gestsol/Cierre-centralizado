@@ -21,7 +21,7 @@ include "./output-set.php";
         <link rel="stylesheet" href="estilos.css">
         
         <title>AndesMar</title>
-        <link rel="icon" type="image/x-icon" href="./favicon.png">
+        <!-- <link rel="icon" type="image/x-icon" href="./favicon.png"> -->
     </head>
     <body>
 
