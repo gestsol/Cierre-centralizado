@@ -43,7 +43,7 @@ include "./output-set.php";
                             </a>                  
                     </div>
                     <div class="col-8 text-center mt-3">
-                        <img src="./Gama.svg" width="100px" alt="Gama">
+                        <!-- <img src="./Gama.svg" width="100px" alt="Gama"> -->
                     </div>
                     <div class="col-2 mt-3">
                         <a href="index.html">
