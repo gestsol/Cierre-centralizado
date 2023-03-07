@@ -20,7 +20,7 @@ include "./output-set.php";
             crossorigin="anonymous">
         <link rel="stylesheet" href="estilos.css">
         
-        <title>Gama</title>
+        <title>AndesMar</title>
         <link rel="icon" type="image/x-icon" href="./favicon.png">
     </head>
     <body>
