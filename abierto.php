@@ -1,6 +1,8 @@
 <?php
 
 $estado="true";
+$id_tracker=$_GET['id_tracker'];
+$patente=$_GET['patente'];
 
 include "./output-set.php";
 
@@ -26,7 +28,7 @@ include "./output-set.php";
             <div class="container">
                 <div class="row">
                     <div class="col-2 text-center mt-3">
-                            <a href="index.html">
+                    <a href='<?php echo 'index.php?patente='.$patente; ?>'>
                                 <img class="borde-imagen" src="./arrow-back.svg" width="30px"
                                     alt="Volver">
                             </a>                  
@@ -35,7 +37,7 @@ include "./output-set.php";
                         <!-- <img src="./Gama.svg" width="100px" alt="Gama"> -->
                     </div>
                     <div class="col-2 mt-3">
-                        <a href="index.html">
+                    <a href='<?php echo 'index.php?patente='.$patente; ?>'>
                             <img class="borde-imagen-x" src="./Icon ionic-ios-close.svg" width="30px"
                                 alt="Cerrar Sesion">
                         </a>
@@ -50,7 +52,7 @@ include "./output-set.php";
             <div class="row">
                 <div class="col-12">
                     <div class="margen-cerrado">
-                        <a href="./cerrado.php">
+                    <a href='<?php echo "cerrado.php?id_tracker=$id_tracker&patente=$patente"; ?>'>
                             <img src="./Lock.svg" alt="Cerrado">
                             <div class="coche-abierto">
                                 <h6>Cerrar</h6>

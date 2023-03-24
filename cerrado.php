@@ -1,5 +1,29 @@
 <?php
+$patente=$_GET['patente'];
+// $pasw=$_GET['password'];
 
+// include("./conexion/conexion.php");
+// $con = conectar();
+
+// $sql = "SELECT *  FROM vehiculo where codigo=$pasw and patente='$patente'";
+// $query = mysqli_query($con, $sql);
+
+// $rows = mysqli_fetch_array($query);
+
+// if (is_null($rows)){
+
+//     echo "<script>alert('clave erronea')</script>";
+
+//     header( "Location: ./index.php?patente=$patente" ) ;
+
+// }
+
+// echo "<script>alert('Clave correcta!')</script>";
+
+//$id_tracker=$rows['id_tracker'];
+
+// 
+$id_tracker=$_GET['id_tracker'];
 $estado="false";
 
 include "./output-set.php";
@@ -37,7 +61,7 @@ include "./output-set.php";
             <div class="container">
                 <div class="row">
                     <div class="col-2 text-center mt-3">
-                            <a href="index.html">
+                    <a href='<?php echo 'index.php?patente='.$patente; ?>'>
                                 <img class="borde-imagen" src="./arrow-back.svg" width="30px"
                                     alt="Volver">
                             </a>                  
@@ -46,7 +70,7 @@ include "./output-set.php";
                         <!-- <img src="./Gama.svg" width="100px" alt="Gama"> -->
                     </div>
                     <div class="col-2 mt-3">
-                        <a href="index.html">
+                        <a href='<?php echo 'index.php?patente='.$patente; ?>'>
                             <img class="borde-imagen-x" src="./Icon ionic-ios-close.svg"width="30px"
                                 alt="Cerrar Sesion">
                         </a>
@@ -77,7 +101,7 @@ include "./output-set.php";
             <div class="row">
                 <div class="col-12">
                     <div class="abierto">
-                        <a href="./abierto.php">
+                    <a href='<?php echo "abierto.php?id_tracker=$id_tracker&patente=$patente"; ?>'>
                          <img src="./img/unlock.svg" alt="Abierto">
                          <div class="coche-cerrado">
                             <h6>Abrir</h6>
@@ -126,4 +150,5 @@ include "./output-set.php";
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
     </body>
+
 </html>

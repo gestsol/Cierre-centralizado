@@ -1,17 +1,16 @@
 <?php
-#user='Desarrollo@wit.la';
+$user='Desarrollo@wit.la';
 #$user='gamaleasing@wit.la';
-#$pasw='Desarrollo2023.';
-#pasw='PilotoGama';
+$pasw='Desarrollo2023.';
+#$pasw='PilotoGama';
 #$id_tracker=10186820; // camioneta Wit
 #$id_tracker=10185507;// base configuracion
-#id_tracker=10186896; // piloto gama
+#$id_tracker=10186896; // piloto gama
 
 
-$user='andesmar_industrial@wit.la';
-$pasw='PilotoAndesmar2023';
-$id_tracker=10190715;
-
+#$user='andesmar_industrial@wit.la';
+#$pasw='PilotoAndesmar2023';
+#id_tracker=10190715;
 
 
 
