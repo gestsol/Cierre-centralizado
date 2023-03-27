@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109" height="109" viewBox="0 0 109 109">
+  <defs>
+    <filter id="Elipse_1" x="0" y="0" width="109" height="109" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.082"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="lock-2" x="30.5" y="19.8" width="47" height="58.9" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_13" data-name="Grupo 13" transform="translate(-161 -454)">
+    <g transform="matrix(1, 0, 0, 1, 161, 454)" filter="url(#Elipse_1)">
+      <g id="Elipse_1-2" data-name="Elipse 1" transform="translate(15 5)" fill="#959595" stroke="#66b0e6" stroke-width="1">
+        <circle cx="39.5" cy="39.5" r="39.5" stroke="none"/>
+        <circle cx="39.5" cy="39.5" r="39" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 161, 454)" filter="url(#lock-2)">
+      <path id="lock-2-2" data-name="lock-2" d="M22,0A11.375,11.375,0,0,0,10.6,11.4V19A7.624,7.624,0,0,0,3,26.6V41.8a7.624,7.624,0,0,0,7.6,7.6H33.4A7.624,7.624,0,0,0,41,41.8V26.6A7.624,7.624,0,0,0,33.4,19V11.4A11.375,11.375,0,0,0,22,0Zm0,3.8a7.44,7.44,0,0,1,7.6,7.6V19H14.4V11.4A7.44,7.44,0,0,1,22,3.8Zm0,24.7a3.807,3.807,0,0,1,3.8,3.8,3.638,3.638,0,0,1-1.9,3.206V39.9A1.792,1.792,0,0,1,22,41.8a1.792,1.792,0,0,1-1.9-1.9V35.506A3.638,3.638,0,0,1,18.2,32.3,3.807,3.807,0,0,1,22,28.5Z" transform="translate(32 19.8)" fill="#4b4e4e"/>
+    </g>
+  </g>
+</svg>

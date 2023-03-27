@@ -24,7 +24,7 @@ if (is_null($rows)){
 
 $id_tracker=$rows['id_tracker'];
 
-header( "Location: ./cerrado.php?patente=$patente&id_tracker=$id_tracker" );
+header( "Location: ./cerrar.php?patente=$patente&id_tracker=$id_tracker" );
 
 }
 
